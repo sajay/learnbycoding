@@ -13,3 +13,15 @@
 #therefore 16 % 3 returns 1. Meanwhile, since 15 is divisible by 3, 15 % 3 returns 0.
 #Also keep in mind that input() always returns a string, so you will need to convert this
 #value to an integer before using it in any calculations.
+
+def find_factors(input_num):
+    value = int(input_num)
+    for n in range(1, value+1):
+        remainder = value % n
+        if (remainder == 0):
+            print(f"{n} is a divisor of {value}")
+        #elif (remainder != 0):
+        #    print(f"{n} is NOT a divisor of {value}")
+
+user_input = input("Enter an integer : ")
+find_factors(user_input)
