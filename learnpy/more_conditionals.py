@@ -16,3 +16,5 @@ for n in range(1,50):
     else:
         continue
         
+lines = "Test1|Test2|Test3      
+"abc|def|ghi"
