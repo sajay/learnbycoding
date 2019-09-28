@@ -1,7 +1,0 @@
-# Ignore vs code file
-
-# Ignore swp files
-
-.DS_Store
-*.swp
-learnpy/.vscode/*
