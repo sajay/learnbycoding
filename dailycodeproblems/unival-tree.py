@@ -67,7 +67,7 @@ def count_unival_subtrees(root):
 # and keeping track of the unival subtree count and value as we percolate back up. 
 # This should evaluate each node only once, making it run in O(n) time.
 
-def count_unival_subtrees(root):
+def count_unival_subtrees2(root):
     count, _ = helper(root)
     return count
 

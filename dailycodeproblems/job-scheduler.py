@@ -29,7 +29,7 @@ def largest_non_adjacent(arr):
     # the largest sum of non-adjacent numbers from index 0 up to that point. 
     # Like so:
     # This code should run in O(n) and in O(n) space.
-    def largest_non_adjacent(arr):
+    def largest_non_adjacent2(arr):
         if len(arr) <= 2:
             return max(0, max(arr))
 
@@ -47,7 +47,7 @@ def largest_non_adjacent(arr):
 # Notice that we only ever use the last two elements of the cache when iterating through the array. 
 # This suggests that we could just get rid of most of the array and just store them as variables:
 
-def largest_non_adjacent(arr):
+def largest_non_adjacent3(arr):
     if len(arr) <= 2:
         return max(0, max(arr))
 
