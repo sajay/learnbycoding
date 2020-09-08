@@ -33,6 +33,7 @@ import ctypes
 
 
 # This is hacky. It's a data structure for C, not python.
+
 class Node(object):
     def __init__(self, val):
         self.val = val

@@ -20,8 +20,8 @@ def sum_match_check(num_list, k):
     print("Brute force no-match: " , timedelta(seconds=end-start))
     return False
 
-print(sum_match_check([10,4,3,9,2], 11));
-print(sum_match_check([10,4,3,9,2], 50));
+print(sum_match_check([10,4,3,9,2], 11))
+print(sum_match_check([10,4,3,9,2], 50))
 
 
 #Solution 1a : Do without For loops
@@ -42,8 +42,8 @@ def sum_match_check2(num_list, k):
     print("With sets no-match: ", timedelta(seconds=end-start))
     return False
 
-print(sum_match_check2([10,4,3,9,2], 11));
-print(sum_match_check2([10,4,3,9,2], 50));
+print(sum_match_check2([10,4,3,9,2], 11))
+print(sum_match_check2([10,4,3,9,2], 50))
 
 #Solution 3: sort & Binary search
 #binary search algo - divide & conquer: log time
